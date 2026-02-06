@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp.Core", "SecurityApp.Core\SecurityApp.Core.csproj", "{477F6EE8-54A7-486F-A275-7C45ABCA8038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp.Infrastructure", "SecurityApp.Infrastructure\SecurityApp.Infrastructure.csproj", "{614FBE60-CC6B-4D3F-8CA6-96C53342385E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SecurityApp.Web", "SecurityApp.Web", "{343C68EA-86C7-4A2B-AA39-B055401AB1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecurityApp.Web", "SecurityApp.Web\SecurityApp.Web\SecurityApp.Web.csproj", "{BBAC53B0-E0CF-437C-ACA8-0024CA766470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{477F6EE8-54A7-486F-A275-7C45ABCA8038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477F6EE8-54A7-486F-A275-7C45ABCA8038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477F6EE8-54A7-486F-A275-7C45ABCA8038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477F6EE8-54A7-486F-A275-7C45ABCA8038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{614FBE60-CC6B-4D3F-8CA6-96C53342385E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614FBE60-CC6B-4D3F-8CA6-96C53342385E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614FBE60-CC6B-4D3F-8CA6-96C53342385E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614FBE60-CC6B-4D3F-8CA6-96C53342385E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBAC53B0-E0CF-437C-ACA8-0024CA766470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBAC53B0-E0CF-437C-ACA8-0024CA766470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBAC53B0-E0CF-437C-ACA8-0024CA766470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBAC53B0-E0CF-437C-ACA8-0024CA766470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBAC53B0-E0CF-437C-ACA8-0024CA766470} = {343C68EA-86C7-4A2B-AA39-B055401AB1AF}
+	EndGlobalSection
+EndGlobal
