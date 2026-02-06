@@ -16,5 +16,6 @@ namespace SecurityApp.Core.Entities
         public List<Note> Notes { get; set; } = new();
         public List<ParkingSpot> ParkingSpots { get; set; } = new();
         public List<PhonebookEntry> Phonebook { get; set; } = new();
+        public List<Guest> Guests { get; set; } = new();
     }
 }
