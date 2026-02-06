@@ -14,7 +14,6 @@ namespace SecurityApp.Core.Entities
         public string PasswordHash { get; set; } = string.Empty;
         [Required]
         public Role Role { get; set; } = Role.Reception;
-        [Required]
         public int? BuildingId { get; set; }
         public Building? Building { get; set; }
     }

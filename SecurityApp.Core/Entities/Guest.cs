@@ -14,6 +14,8 @@ namespace SecurityApp.Core.Entities
         public string Company { get; set; } = string.Empty;
         public DateTime PermissionStart { get; set; }
         public DateTime PermissionEnd { get; set; }
+        public int BuildingId { get; set; }
+        public Building? Building { get; set; }
 
     }
 }
